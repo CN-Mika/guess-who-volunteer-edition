@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.imagefaded {
+  opacity: 0.1;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+h1 {
+  font-family: "Times New Roman";
+}
+h1:hover {
+  background-color: #ffb6c1;
+}
